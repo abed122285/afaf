@@ -1,0 +1,57 @@
+{
+  "tables_verified": 33,
+  "workflows": {
+    "Workflow_A_Purchase": "PASSED",
+    "Workflow_B_Production": "PASSED",
+    "Workflow_C_POS_Sale": "PASSED",
+    "Workflow_D_Partial_Payment": "PASSED",
+    "Workflow_E_Refund": "PASSED"
+  },
+  "assertions": [
+    {
+      "test": "All 33 core database tables created",
+      "passed": true,
+      "details": "Found 33 tables: activity_logs, attachments, bill_of_material_items, bill_of_materials, cash_movements, categories, customers, expenses, finished_product_images, finished_products, finished_stock_movements, invoice_items, invoices, material_images, material_stock_movements, materials, model_images, model_variants, models, payments, production_consumptions, production_order_stages, production_orders, production_stages, purchase_items, purchases, quality_checks, refunds, sale_items, sales, supplier_payments, suppliers, workshop_settings"
+    },
+    {
+      "test": "Workflow A: Purchase receipt updates stock & moving weighted average cost",
+      "passed": true,
+      "details": "On-hand=30m, CMP=2000 DZD"
+    },
+    {
+      "test": "Workflow A Idempotency: Duplicate purchase stock movement prevented by unique idempotency_key",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "test": "Workflow B Reservation: Material reservation reduces available_qty without reducing physical on_hand_qty",
+      "passed": true,
+      "details": "OnHand=30, Reserved=15, Available=15"
+    },
+    {
+      "test": "Workflow B Completion: Only accepted QC units (4 of 5) enter finished stock with exact unit cost (10,000 DZD)",
+      "passed": true,
+      "details": "Finished Qty=4, Unit Cost=10000 DZD"
+    },
+    {
+      "test": "Workflow C & D1: POS sale deducts finished stock (4 -> 2) and sets invoice status to PARTIALLY_PAID (20,000 DZD remaining)",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "test": "Invoice Immutability: Renaming/repricing product does not alter historical confirmed invoice line snapshots",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "test": "Workflow D2: Second payment automatically transitions invoice to PAID with 0.00 DZD remaining",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "test": "Workflow E: Partial return restocks finished product (2 -> 3), preserves original payment records, and updates status to PARTIALLY_REFUNDED",
+      "passed": true,
+      "details": ""
+    }
+  ]
+}

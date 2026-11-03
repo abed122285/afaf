@@ -1,0 +1,28 @@
+{
+  "version": "2.0.0",
+  "project": "ATELIER OS — Maison AFAF EL ASSLI",
+  "theme": "maison-afaf-couture (custom brand-truth)",
+  "genre": "luxury-erp",
+  "brandTruth": {
+    "brandName": "AFAF EL ASSLI — دار عفاف الأصلي للأزياء الراقية",
+    "logoAsset": "/assets/logo_afaf.webp",
+    "logoContainerRule": "Preserved unmodified on dedicated #09090B / #101116 dark container with metallic gold border (#C99A3D)",
+    "palette": {
+      "--bg-canvas": "#FAF8F3",
+      "--bg-surface": "#FFFFFF",
+      "--bg-elevated": "#F4F1EA",
+      "--text-primary": "#20232B",
+      "--text-muted": "#667085",
+      "--brand-gold": "#C99A3D",
+      "--brand-gold-light": "#E7C879",
+      "--brand-gold-dark": "#8C6425",
+      "--sidebar-bg": "#101116"
+    },
+    "typography": {
+      "arabic": "IBM Plex Sans Arabic, Cairo, sans-serif",
+      "french": "Inter, system-ui, sans-serif",
+      "numbers": "tabular-nums"
+    }
+  },
+  "floorStatus": "0 FAIL"
+}

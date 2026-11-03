@@ -1,0 +1,1587 @@
+{
+  "project": "ATELIER OS — Maison AFAF EL ASSLI",
+  "generator": "ATELIER OS Local AST Graph Builder (Graphify-compatible)",
+  "stats": {
+    "total_nodes": 109,
+    "total_edges": 131,
+    "db_tables": 33,
+    "service_methods": 15,
+    "api_actions": 20,
+    "react_components": 9
+  },
+  "nodes": [
+    {
+      "id": "drizzle.config.ts",
+      "kind": "file",
+      "label": "drizzle.config.ts",
+      "path": "drizzle.config.ts"
+    },
+    {
+      "id": "tailwind.config.ts",
+      "kind": "file",
+      "label": "tailwind.config.ts",
+      "path": "tailwind.config.ts"
+    },
+    {
+      "id": "src/lib/i18n.ts",
+      "kind": "file",
+      "label": "i18n.ts",
+      "path": "src/lib/i18n.ts"
+    },
+    {
+      "id": "src/lib/rbac.ts",
+      "kind": "file",
+      "label": "rbac.ts",
+      "path": "src/lib/rbac.ts"
+    },
+    {
+      "id": "src/lib/storage.ts",
+      "kind": "file",
+      "label": "storage.ts",
+      "path": "src/lib/storage.ts"
+    },
+    {
+      "id": "src/lib/validators.ts",
+      "kind": "file",
+      "label": "validators.ts",
+      "path": "src/lib/validators.ts"
+    },
+    {
+      "id": "src/lib/supabase/client.ts",
+      "kind": "file",
+      "label": "client.ts",
+      "path": "src/lib/supabase/client.ts"
+    },
+    {
+      "id": "src/lib/supabase/server.ts",
+      "kind": "file",
+      "label": "server.ts",
+      "path": "src/lib/supabase/server.ts"
+    },
+    {
+      "id": "src/app/layout.tsx",
+      "kind": "file",
+      "label": "layout.tsx",
+      "path": "src/app/layout.tsx"
+    },
+    {
+      "id": "component:RootLayout",
+      "kind": "react_component",
+      "label": "RootLayout",
+      "path": "src/app/layout.tsx"
+    },
+    {
+      "id": "src/app/page.tsx",
+      "kind": "file",
+      "label": "page.tsx",
+      "path": "src/app/page.tsx"
+    },
+    {
+      "id": "component:AtelierDashboardPage",
+      "kind": "react_component",
+      "label": "AtelierDashboardPage",
+      "path": "src/app/page.tsx"
+    },
+    {
+      "id": "src/app/api/atelier/route.ts",
+      "kind": "file",
+      "label": "route.ts",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CALCULATE_PAYMENT_STATUS",
+      "kind": "api_action",
+      "label": "CALCULATE_PAYMENT_STATUS",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CALCULATE_CMP",
+      "kind": "api_action",
+      "label": "CALCULATE_CMP",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:ADD_MATERIAL",
+      "kind": "api_action",
+      "label": "ADD_MATERIAL",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:UPDATE_MATERIAL",
+      "kind": "api_action",
+      "label": "UPDATE_MATERIAL",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:ADJUST_MATERIAL_STOCK",
+      "kind": "api_action",
+      "label": "ADJUST_MATERIAL_STOCK",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_SUPPLIER",
+      "kind": "api_action",
+      "label": "CREATE_SUPPLIER",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_AND_RECEIVE_PURCHASE",
+      "kind": "api_action",
+      "label": "CREATE_AND_RECEIVE_PURCHASE",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_CUSTOMER",
+      "kind": "api_action",
+      "label": "CREATE_CUSTOMER",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_EXPENSE",
+      "kind": "api_action",
+      "label": "CREATE_EXPENSE",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:RECORD_SUPPLIER_PAYMENT",
+      "kind": "api_action",
+      "label": "RECORD_SUPPLIER_PAYMENT",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_MODEL",
+      "kind": "api_action",
+      "label": "CREATE_MODEL",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_MODEL_WITH_BOM",
+      "kind": "api_action",
+      "label": "CREATE_MODEL_WITH_BOM",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_PRODUCTION_ORDER",
+      "kind": "api_action",
+      "label": "CREATE_PRODUCTION_ORDER",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:COMPLETE_PRODUCTION_ORDER",
+      "kind": "api_action",
+      "label": "COMPLETE_PRODUCTION_ORDER",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_FINISHED_PRODUCT",
+      "kind": "api_action",
+      "label": "CREATE_FINISHED_PRODUCT",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:COMPLETE_POS_SALE",
+      "kind": "api_action",
+      "label": "COMPLETE_POS_SALE",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:CREATE_POS_SALE",
+      "kind": "api_action",
+      "label": "CREATE_POS_SALE",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:RECORD_PAYMENT",
+      "kind": "api_action",
+      "label": "RECORD_PAYMENT",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:RECORD_REFUND",
+      "kind": "api_action",
+      "label": "RECORD_REFUND",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "action:PROCESS_REFUND",
+      "kind": "api_action",
+      "label": "PROCESS_REFUND",
+      "path": "src/app/api/atelier/route.ts"
+    },
+    {
+      "id": "src/app/api/upload/route.ts",
+      "kind": "file",
+      "label": "route.ts",
+      "path": "src/app/api/upload/route.ts"
+    },
+    {
+      "id": "src/app/api/auth/login/route.ts",
+      "kind": "file",
+      "label": "route.ts",
+      "path": "src/app/api/auth/login/route.ts"
+    },
+    {
+      "id": "src/app/api/employees/route.ts",
+      "kind": "file",
+      "label": "route.ts",
+      "path": "src/app/api/employees/route.ts"
+    },
+    {
+      "id": "src/services/atelierService.ts",
+      "kind": "file",
+      "label": "atelierService.ts",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:adjustMaterialStock",
+      "kind": "service_method",
+      "label": "adjustMaterialStock",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:updateMaterialDetails",
+      "kind": "service_method",
+      "label": "updateMaterialDetails",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:receivePurchaseTransaction",
+      "kind": "service_method",
+      "label": "receivePurchaseTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:recordSupplierPaymentTransaction",
+      "kind": "service_method",
+      "label": "recordSupplierPaymentTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:createModelWithBomTransaction",
+      "kind": "service_method",
+      "label": "createModelWithBomTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:createProductionOrderTransaction",
+      "kind": "service_method",
+      "label": "createProductionOrderTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:completeProductionOrderTransaction",
+      "kind": "service_method",
+      "label": "completeProductionOrderTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:completeSaleCheckoutTransaction",
+      "kind": "service_method",
+      "label": "completeSaleCheckoutTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:recordCustomerPaymentTransaction",
+      "kind": "service_method",
+      "label": "recordCustomerPaymentTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:processRefundTransaction",
+      "kind": "service_method",
+      "label": "processRefundTransaction",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:roundMoney",
+      "kind": "service_method",
+      "label": "roundMoney",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:roundQty",
+      "kind": "service_method",
+      "label": "roundQty",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:getAlgiersCurrentDateIso",
+      "kind": "service_method",
+      "label": "getAlgiersCurrentDateIso",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:calculateInvoicePaymentStatus",
+      "kind": "service_method",
+      "label": "calculateInvoicePaymentStatus",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "service:calculateMovingWeightedAverageCost",
+      "kind": "service_method",
+      "label": "calculateMovingWeightedAverageCost",
+      "path": "src/services/atelierService.ts"
+    },
+    {
+      "id": "src/db/index.ts",
+      "kind": "file",
+      "label": "index.ts",
+      "path": "src/db/index.ts"
+    },
+    {
+      "id": "src/db/migrate.ts",
+      "kind": "file",
+      "label": "migrate.ts",
+      "path": "src/db/migrate.ts"
+    },
+    {
+      "id": "src/db/schema.ts",
+      "kind": "file",
+      "label": "schema.ts",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:workshop_settings",
+      "kind": "db_table",
+      "label": "workshop_settings",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:categories",
+      "kind": "db_table",
+      "label": "categories",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:suppliers",
+      "kind": "db_table",
+      "label": "suppliers",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:materials",
+      "kind": "db_table",
+      "label": "materials",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:material_images",
+      "kind": "db_table",
+      "label": "material_images",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:material_stock_movements",
+      "kind": "db_table",
+      "label": "material_stock_movements",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:purchases",
+      "kind": "db_table",
+      "label": "purchases",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:purchase_items",
+      "kind": "db_table",
+      "label": "purchase_items",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:supplier_payments",
+      "kind": "db_table",
+      "label": "supplier_payments",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:models",
+      "kind": "db_table",
+      "label": "models",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:model_images",
+      "kind": "db_table",
+      "label": "model_images",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:model_variants",
+      "kind": "db_table",
+      "label": "model_variants",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:bill_of_materials",
+      "kind": "db_table",
+      "label": "bill_of_materials",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:bill_of_material_items",
+      "kind": "db_table",
+      "label": "bill_of_material_items",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:production_stages",
+      "kind": "db_table",
+      "label": "production_stages",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:production_orders",
+      "kind": "db_table",
+      "label": "production_orders",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:production_order_stages",
+      "kind": "db_table",
+      "label": "production_order_stages",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:production_consumptions",
+      "kind": "db_table",
+      "label": "production_consumptions",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:quality_checks",
+      "kind": "db_table",
+      "label": "quality_checks",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:finished_products",
+      "kind": "db_table",
+      "label": "finished_products",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:finished_product_images",
+      "kind": "db_table",
+      "label": "finished_product_images",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:finished_stock_movements",
+      "kind": "db_table",
+      "label": "finished_stock_movements",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:customers",
+      "kind": "db_table",
+      "label": "customers",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:sales",
+      "kind": "db_table",
+      "label": "sales",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:sale_items",
+      "kind": "db_table",
+      "label": "sale_items",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:invoices",
+      "kind": "db_table",
+      "label": "invoices",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:invoice_items",
+      "kind": "db_table",
+      "label": "invoice_items",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:payments",
+      "kind": "db_table",
+      "label": "payments",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:refunds",
+      "kind": "db_table",
+      "label": "refunds",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:expenses",
+      "kind": "db_table",
+      "label": "expenses",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:cash_movements",
+      "kind": "db_table",
+      "label": "cash_movements",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:attachments",
+      "kind": "db_table",
+      "label": "attachments",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "table:activity_logs",
+      "kind": "db_table",
+      "label": "activity_logs",
+      "path": "src/db/schema.ts"
+    },
+    {
+      "id": "src/db/seed.ts",
+      "kind": "file",
+      "label": "seed.ts",
+      "path": "src/db/seed.ts"
+    },
+    {
+      "id": "src/components/AtelierAppShell.tsx",
+      "kind": "file",
+      "label": "AtelierAppShell.tsx",
+      "path": "src/components/AtelierAppShell.tsx"
+    },
+    {
+      "id": "component:AtelierAppShell",
+      "kind": "react_component",
+      "label": "AtelierAppShell",
+      "path": "src/components/AtelierAppShell.tsx"
+    },
+    {
+      "id": "src/components/icons/LucideIcons.tsx",
+      "kind": "file",
+      "label": "LucideIcons.tsx",
+      "path": "src/components/icons/LucideIcons.tsx"
+    },
+    {
+      "id": "component:LucideIcon",
+      "kind": "react_component",
+      "label": "LucideIcon",
+      "path": "src/components/icons/LucideIcons.tsx"
+    },
+    {
+      "id": "src/components/react-bits/BlurText.tsx",
+      "kind": "file",
+      "label": "BlurText.tsx",
+      "path": "src/components/react-bits/BlurText.tsx"
+    },
+    {
+      "id": "component:BlurText",
+      "kind": "react_component",
+      "label": "BlurText",
+      "path": "src/components/react-bits/BlurText.tsx"
+    },
+    {
+      "id": "src/components/react-bits/CountUp.tsx",
+      "kind": "file",
+      "label": "CountUp.tsx",
+      "path": "src/components/react-bits/CountUp.tsx"
+    },
+    {
+      "id": "component:CountUp",
+      "kind": "react_component",
+      "label": "CountUp",
+      "path": "src/components/react-bits/CountUp.tsx"
+    },
+    {
+      "id": "src/components/react-bits/SpotlightCard.tsx",
+      "kind": "file",
+      "label": "SpotlightCard.tsx",
+      "path": "src/components/react-bits/SpotlightCard.tsx"
+    },
+    {
+      "id": "component:SpotlightCard",
+      "kind": "react_component",
+      "label": "SpotlightCard",
+      "path": "src/components/react-bits/SpotlightCard.tsx"
+    },
+    {
+      "id": "src/components/motion/AtelierMotionSystem.tsx",
+      "kind": "file",
+      "label": "AtelierMotionSystem.tsx",
+      "path": "src/components/motion/AtelierMotionSystem.tsx"
+    },
+    {
+      "id": "component:AtelierSelectiveSmoothScroll",
+      "kind": "react_component",
+      "label": "AtelierSelectiveSmoothScroll",
+      "path": "src/components/motion/AtelierMotionSystem.tsx"
+    },
+    {
+      "id": "src/context/AtelierStoreContext.tsx",
+      "kind": "file",
+      "label": "AtelierStoreContext.tsx",
+      "path": "src/context/AtelierStoreContext.tsx"
+    },
+    {
+      "id": "component:AtelierStoreProvider",
+      "kind": "react_component",
+      "label": "AtelierStoreProvider",
+      "path": "src/context/AtelierStoreContext.tsx"
+    },
+    {
+      "id": "src/types/supabase.ts",
+      "kind": "file",
+      "label": "supabase.ts",
+      "path": "src/types/supabase.ts"
+    },
+    {
+      "id": "public/atelier-os-standalone.html",
+      "kind": "file",
+      "label": "atelier-os-standalone.html",
+      "path": "public/atelier-os-standalone.html"
+    },
+    {
+      "id": "tests/security_audit.py",
+      "kind": "file",
+      "label": "security_audit.py",
+      "path": "tests/security_audit.py"
+    },
+    {
+      "id": "tests/verify_all_workflows.py",
+      "kind": "file",
+      "label": "verify_all_workflows.py",
+      "path": "tests/verify_all_workflows.py"
+    },
+    {
+      "id": "drizzle/0000_atelier_os_init.sql",
+      "kind": "file",
+      "label": "0000_atelier_os_init.sql",
+      "path": "drizzle/0000_atelier_os_init.sql"
+    },
+    {
+      "id": "scripts/generate_codebase_graph.py",
+      "kind": "file",
+      "label": "generate_codebase_graph.py",
+      "path": "scripts/generate_codebase_graph.py"
+    }
+  ],
+  "edges": [
+    {
+      "source": "drizzle.config.ts",
+      "target": "drizzle-kit",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'drizzle-kit'"
+    },
+    {
+      "source": "tailwind.config.ts",
+      "target": "tailwindcss",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'tailwindcss'"
+    },
+    {
+      "source": "src/lib/storage.ts",
+      "target": "fs/promises",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'fs/promises'"
+    },
+    {
+      "source": "src/lib/storage.ts",
+      "target": "path",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'path'"
+    },
+    {
+      "source": "src/lib/storage.ts",
+      "target": "./validators",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import './validators'"
+    },
+    {
+      "source": "src/lib/validators.ts",
+      "target": "zod",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'zod'"
+    },
+    {
+      "source": "src/lib/supabase/client.ts",
+      "target": "@supabase/ssr",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@supabase/ssr'"
+    },
+    {
+      "source": "src/lib/supabase/client.ts",
+      "target": "src/types/supabase.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/types/supabase'"
+    },
+    {
+      "source": "src/lib/supabase/server.ts",
+      "target": "@supabase/ssr",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@supabase/ssr'"
+    },
+    {
+      "source": "src/lib/supabase/server.ts",
+      "target": "@supabase/supabase-js",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@supabase/supabase-js'"
+    },
+    {
+      "source": "src/lib/supabase/server.ts",
+      "target": "next/headers",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'next/headers'"
+    },
+    {
+      "source": "src/lib/supabase/server.ts",
+      "target": "src/types/supabase.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/types/supabase'"
+    },
+    {
+      "source": "src/app/layout.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/app/layout.tsx",
+      "target": "component:RootLayout",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component RootLayout"
+    },
+    {
+      "source": "src/app/page.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/app/page.tsx",
+      "target": "src/context/AtelierStoreContext.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/context/AtelierStoreContext'"
+    },
+    {
+      "source": "src/app/page.tsx",
+      "target": "src/components/AtelierAppShell.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/AtelierAppShell'"
+    },
+    {
+      "source": "src/app/page.tsx",
+      "target": "component:AtelierDashboardPage",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component AtelierDashboardPage"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "next/server",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'next/server'"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "drizzle-orm",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'drizzle-orm'"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "src/db/index.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db'"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "src/db/schema.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db/schema'"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CALCULATE_PAYMENT_STATUS",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CALCULATE_PAYMENT_STATUS"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CALCULATE_CMP",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CALCULATE_CMP"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:ADD_MATERIAL",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=ADD_MATERIAL"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:UPDATE_MATERIAL",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=UPDATE_MATERIAL"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:ADJUST_MATERIAL_STOCK",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=ADJUST_MATERIAL_STOCK"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_SUPPLIER",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_SUPPLIER"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_AND_RECEIVE_PURCHASE",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_AND_RECEIVE_PURCHASE"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_CUSTOMER",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_CUSTOMER"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_EXPENSE",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_EXPENSE"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:RECORD_SUPPLIER_PAYMENT",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=RECORD_SUPPLIER_PAYMENT"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_MODEL",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_MODEL"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_MODEL_WITH_BOM",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_MODEL_WITH_BOM"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_PRODUCTION_ORDER",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_PRODUCTION_ORDER"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:COMPLETE_PRODUCTION_ORDER",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=COMPLETE_PRODUCTION_ORDER"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_FINISHED_PRODUCT",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_FINISHED_PRODUCT"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:COMPLETE_POS_SALE",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=COMPLETE_POS_SALE"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:CREATE_POS_SALE",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=CREATE_POS_SALE"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:RECORD_PAYMENT",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=RECORD_PAYMENT"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:RECORD_REFUND",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=RECORD_REFUND"
+    },
+    {
+      "source": "src/app/api/atelier/route.ts",
+      "target": "action:PROCESS_REFUND",
+      "relation": "DISPATCHES_ACTION",
+      "tag": "EXTRACTED",
+      "reason": "POST /api/atelier action=PROCESS_REFUND"
+    },
+    {
+      "source": "src/app/api/upload/route.ts",
+      "target": "next/server",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'next/server'"
+    },
+    {
+      "source": "src/app/api/upload/route.ts",
+      "target": "src/lib/storage.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/lib/storage'"
+    },
+    {
+      "source": "src/app/api/upload/route.ts",
+      "target": "src/db/index.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db'"
+    },
+    {
+      "source": "src/app/api/upload/route.ts",
+      "target": "src/db/schema.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db/schema'"
+    },
+    {
+      "source": "src/app/api/auth/login/route.ts",
+      "target": "next/server",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'next/server'"
+    },
+    {
+      "source": "src/app/api/auth/login/route.ts",
+      "target": "zod",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'zod'"
+    },
+    {
+      "source": "src/app/api/auth/login/route.ts",
+      "target": "src/lib/supabase/server.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/lib/supabase/server'"
+    },
+    {
+      "source": "src/app/api/employees/route.ts",
+      "target": "next/server",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'next/server'"
+    },
+    {
+      "source": "src/app/api/employees/route.ts",
+      "target": "zod",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'zod'"
+    },
+    {
+      "source": "src/app/api/employees/route.ts",
+      "target": "src/lib/supabase/server.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/lib/supabase/server'"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "drizzle-orm",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'drizzle-orm'"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "src/db/index.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db'"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "src/db/schema.ts",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/db/schema'"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:adjustMaterialStock",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.adjustMaterialStock()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:updateMaterialDetails",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.updateMaterialDetails()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:receivePurchaseTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.receivePurchaseTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:recordSupplierPaymentTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.recordSupplierPaymentTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:createModelWithBomTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.createModelWithBomTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:createProductionOrderTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.createProductionOrderTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:completeProductionOrderTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.completeProductionOrderTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:completeSaleCheckoutTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.completeSaleCheckoutTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:recordCustomerPaymentTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.recordCustomerPaymentTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:processRefundTransaction",
+      "relation": "DEFINES_SERVICE_METHOD",
+      "tag": "EXTRACTED",
+      "reason": "AtelierPostgresRepository.processRefundTransaction()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:roundMoney",
+      "relation": "EXPORTS_PURE_FUNCTION",
+      "tag": "EXTRACTED",
+      "reason": "function roundMoney()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:roundQty",
+      "relation": "EXPORTS_PURE_FUNCTION",
+      "tag": "EXTRACTED",
+      "reason": "function roundQty()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:getAlgiersCurrentDateIso",
+      "relation": "EXPORTS_PURE_FUNCTION",
+      "tag": "EXTRACTED",
+      "reason": "function getAlgiersCurrentDateIso()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:calculateInvoicePaymentStatus",
+      "relation": "EXPORTS_PURE_FUNCTION",
+      "tag": "EXTRACTED",
+      "reason": "function calculateInvoicePaymentStatus()"
+    },
+    {
+      "source": "src/services/atelierService.ts",
+      "target": "service:calculateMovingWeightedAverageCost",
+      "relation": "EXPORTS_PURE_FUNCTION",
+      "tag": "EXTRACTED",
+      "reason": "function calculateMovingWeightedAverageCost()"
+    },
+    {
+      "source": "src/db/index.ts",
+      "target": "drizzle-orm/postgres-js",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'drizzle-orm/postgres-js'"
+    },
+    {
+      "source": "src/db/index.ts",
+      "target": "postgres",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'postgres'"
+    },
+    {
+      "source": "src/db/index.ts",
+      "target": "./schema",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import './schema'"
+    },
+    {
+      "source": "src/db/migrate.ts",
+      "target": "drizzle-orm/node-postgres/migrator",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'drizzle-orm/node-postgres/migrator'"
+    },
+    {
+      "source": "src/db/migrate.ts",
+      "target": "./index",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import './index'"
+    },
+    {
+      "source": "src/db/migrate.ts",
+      "target": "path",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'path'"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:workshop_settings",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('workshop_settings')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:categories",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('categories')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:suppliers",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('suppliers')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:materials",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('materials')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:material_images",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('material_images')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:material_stock_movements",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('material_stock_movements')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:purchases",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('purchases')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:purchase_items",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('purchase_items')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:supplier_payments",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('supplier_payments')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:models",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('models')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:model_images",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('model_images')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:model_variants",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('model_variants')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:bill_of_materials",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('bill_of_materials')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:bill_of_material_items",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('bill_of_material_items')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:production_stages",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('production_stages')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:production_orders",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('production_orders')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:production_order_stages",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('production_order_stages')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:production_consumptions",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('production_consumptions')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:quality_checks",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('quality_checks')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:finished_products",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('finished_products')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:finished_product_images",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('finished_product_images')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:finished_stock_movements",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('finished_stock_movements')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:customers",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('customers')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:sales",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('sales')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:sale_items",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('sale_items')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:invoices",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('invoices')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:invoice_items",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('invoice_items')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:payments",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('payments')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:refunds",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('refunds')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:expenses",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('expenses')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:cash_movements",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('cash_movements')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:attachments",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('attachments')"
+    },
+    {
+      "source": "src/db/schema.ts",
+      "target": "table:activity_logs",
+      "relation": "DEFINES_TABLE",
+      "tag": "EXTRACTED",
+      "reason": "pgTable('activity_logs')"
+    },
+    {
+      "source": "src/db/seed.ts",
+      "target": "./index",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import './index'"
+    },
+    {
+      "source": "src/db/seed.ts",
+      "target": "./schema",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import './schema'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/context/AtelierStoreContext.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/context/AtelierStoreContext'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/components/icons/LucideIcons.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/icons/LucideIcons'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/components/react-bits/BlurText.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/react-bits/BlurText'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/components/react-bits/SpotlightCard.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/react-bits/SpotlightCard'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/components/react-bits/CountUp.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/react-bits/CountUp'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "src/components/motion/AtelierMotionSystem.tsx",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import '@/components/motion/AtelierMotionSystem'"
+    },
+    {
+      "source": "src/components/AtelierAppShell.tsx",
+      "target": "component:AtelierAppShell",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component AtelierAppShell"
+    },
+    {
+      "source": "src/components/icons/LucideIcons.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/icons/LucideIcons.tsx",
+      "target": "component:LucideIcon",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component LucideIcon"
+    },
+    {
+      "source": "src/components/react-bits/BlurText.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/react-bits/BlurText.tsx",
+      "target": "component:BlurText",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component BlurText"
+    },
+    {
+      "source": "src/components/react-bits/CountUp.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/react-bits/CountUp.tsx",
+      "target": "component:CountUp",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component CountUp"
+    },
+    {
+      "source": "src/components/react-bits/SpotlightCard.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/react-bits/SpotlightCard.tsx",
+      "target": "component:SpotlightCard",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component SpotlightCard"
+    },
+    {
+      "source": "src/components/motion/AtelierMotionSystem.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/components/motion/AtelierMotionSystem.tsx",
+      "target": "component:AtelierSelectiveSmoothScroll",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component AtelierSelectiveSmoothScroll"
+    },
+    {
+      "source": "src/context/AtelierStoreContext.tsx",
+      "target": "react",
+      "relation": "IMPORTS",
+      "tag": "EXTRACTED",
+      "reason": "ES import 'react'"
+    },
+    {
+      "source": "src/context/AtelierStoreContext.tsx",
+      "target": "component:AtelierStoreProvider",
+      "relation": "EXPORTS_COMPONENT",
+      "tag": "EXTRACTED",
+      "reason": "React component AtelierStoreProvider"
+    }
+  ]
+}
